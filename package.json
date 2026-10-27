@@ -1,0 +1,14 @@
+{
+  "name": "word-square-naimuri",
+  "version": "1.0.0",
+  "description": "A simple word square solver in plain JS",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dictionary": "node download-dictionary.js",
+    "examples": "node solve.js --file puzzles.txt",
+    "solve": "node solve.js",
+    "test": "node --test"
+  }
+}
